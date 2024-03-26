@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sasha\\source\\repos\\mslearn-dotnetmaui-customize-xaml-pages-layout\\exercise1\\Alignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2999CC6-E7FC-4E9F-8A6E-838819DB6ED0}|Alignment.csproj|c:\\users\\sasha\\source\\repos\\mslearn-dotnetmaui-customize-xaml-pages-layout\\exercise1\\alignment\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2999CC6-E7FC-4E9F-8A6E-838819DB6ED0}|Alignment.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Sasha\\source\\repos\\mslearn-dotnetmaui-customize-xaml-pages-layout\\exercise1\\Alignment\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Sasha\\source\\repos\\mslearn-dotnetmaui-customize-xaml-pages-layout\\exercise1\\Alignment\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:10:35.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

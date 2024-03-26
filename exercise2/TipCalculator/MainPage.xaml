@@ -1,0 +1,36 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TipCalculator"
+             x:Class="TipCalculator.MainPage">
+    <AbsoluteLayout>
+
+        <Label Text="Bill" AbsoluteLayout.LayoutBounds="0.05, 0.05, 0.2, 0.05" AbsoluteLayout.LayoutFlags="All" />
+        <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric"
+               AbsoluteLayout.LayoutBounds="0.3, 0.05, 0.65, 0.05" AbsoluteLayout.LayoutFlags="All" />
+
+        <Label Text="Tip" AbsoluteLayout.LayoutBounds="0.05, 0.15, 0.2, 0.05" AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="tipOutput" Text="0.00"
+               AbsoluteLayout.LayoutBounds="0.3, 0.15, 0.65, 0.05" AbsoluteLayout.LayoutFlags="All" />
+
+        <Label Text="Total" AbsoluteLayout.LayoutBounds="0.05, 0.25, 0.2, 0.05" AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="totalOutput" Text="0.00"
+               AbsoluteLayout.LayoutBounds="0.3, 0.25, 0.65, 0.05" AbsoluteLayout.LayoutFlags="All" />
+
+        <Label Text="Tip Percentage" AbsoluteLayout.LayoutBounds="0.05, 0.35, 0.2, 0.05" AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="tipPercent" Text="15%"
+               AbsoluteLayout.LayoutBounds="0.3, 0.35, 0.2, 0.05" AbsoluteLayout.LayoutFlags="All" />
+        <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15"
+                AbsoluteLayout.LayoutBounds="0.5, 0.35, 0.4, 0.05" AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="15%" Clicked="OnNormalTip"
+                AbsoluteLayout.LayoutBounds="0.05, 0.45, 0.4, 0.07" AbsoluteLayout.LayoutFlags="All" />
+        <Button Text="20%" Clicked="OnGenerousTip"
+                AbsoluteLayout.LayoutBounds="0.5, 0.45, 0.4, 0.07" AbsoluteLayout.LayoutFlags="All" />
+
+        <Button x:Name="roundDown" Text="Round Down"
+                AbsoluteLayout.LayoutBounds="0.05, 0.55, 0.4, 0.07" AbsoluteLayout.LayoutFlags="All" />
+        <Button x:Name="roundUp" Text="Round Up"
+                AbsoluteLayout.LayoutBounds="0.5, 0.55, 0.4, 0.07" AbsoluteLayout.LayoutFlags="All" />
+
+    </AbsoluteLayout>
+</ContentPage>
